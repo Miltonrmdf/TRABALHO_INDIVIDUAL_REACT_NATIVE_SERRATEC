@@ -28,7 +28,7 @@ export const Login = () => {
 
             <View style={styles.cInputEmail}>            
             <Text>Digite sua senha</Text>
-            <TextInput
+            <TextInput type="password"
                 style={styles.tImputEmail}
                 placeholder="Digite aqui"
                 defaultValue={text}
@@ -40,7 +40,11 @@ export const Login = () => {
                 title="Entrar"
                 accessibilityLabel="Clique aqui para entrar"
             /> 
-            <Text style={styles.text}>Esqueceu sua senha?</Text>
+            
+            </View>
+
+            <View style={styles.ctext}>
+                <Text >Esqueceu sua senha?</Text>
             </View>
 
             <View style={styles.buttonc}>
@@ -64,8 +68,10 @@ const styles = StyleSheet.create({
     },
 
     cNavBar: {
-        height: "8%",
-        alignItems:"flex-start"
+        height: "12%",
+        alignItems:"flex-start",
+        marginTop:"7%",
+        marginBottom:"1%"
     },
 
     voltar:{
@@ -112,7 +118,8 @@ const styles = StyleSheet.create({
         flexDirection:"column",
         width:"90%",
         alignSelf:"center",
-        justifyContent:"flex-end"
+        justifyContent:"flex-end",
+        
      },
     iconeMeta:{
         flexDirection:"column",
@@ -120,7 +127,9 @@ const styles = StyleSheet.create({
         alignItems:"center",
         justifyContent:"flex-start"
     },
-    text: {
-        alignItems:"center"
+    ctext: {
+        marginLeft:"35%",
+        marginTop:"0%",
+        marginBottom:"50%"
     },
 }); 
