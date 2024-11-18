@@ -9,4 +9,5 @@ Requisitos:
 - Deve conter no Readme.md um print da tela do aplicativo escolhido e um print de como ficou a tela feita por você
 
 Entrega: dia 18/11/2024, segunda-feira
-- Envie o link do repositório por aqui
+- Envie o link do repositório por aqui no classroom
+<img src="\TrabalhoReactNative\trabalho.jpg" alt="Tela do trabalho">
